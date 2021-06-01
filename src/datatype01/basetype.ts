@@ -30,7 +30,7 @@ let s2 = Symbol()
 console.log(s1 === s2)  // 显示 false
 
 // 6、函数
-let add = (x: number, y: number): number => x + y              // 入参类型 以及 返回值类型（也可以省略，用到的ts的类型推断功能）
+// let add = (x: number, y: number): number => x + y              // 入参类型 以及 返回值类型（也可以省略，用到的ts的类型推断功能）
 
 let compute: (x: number, y:number) => number                   // 做了一个函数类型compute，但是还没实现，可以在之后做函数内容书写
 compute = (a, b) => a + b;                                     // 因为上面做了类型声明，所以这里不用写类型了

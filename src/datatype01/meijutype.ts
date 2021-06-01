@@ -41,7 +41,7 @@ const enum Month {
   Mar
 }
 
-let month = [Month.Jan, Month.Feb, Month]
+// let month = [Month.Jan, Month.Feb, Month]
 
 // 定义枚举类型
 enum E { a, b }                          
