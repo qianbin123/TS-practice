@@ -19,23 +19,23 @@ console.log(dog);
 */
 
 /************************** 类的继承 *****************************/
-class Husky extends Dog {
-  constructor(name: string, color: string){
-    super(name);
-    this.color = color;
-  }
-  color: string
-}
+// class Husky extends Dog {
+//   constructor(name: string, color: string){
+//     super(name);
+//     this.color = color;
+//   }
+//   color: string
+// }
 
 // 等效
 
-class Husky extends Dog {
-  constructor(name: string, color: string){
-    super(name);
-    this.color = color;
-  }
-  public color: string
-}
+// class Husky extends Dog {
+//   constructor(name: string, color: string){
+//     super(name);
+//     this.color = color;
+//   }
+//   public color: string
+// }
 
 // 等效
 
