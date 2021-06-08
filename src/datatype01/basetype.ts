@@ -50,14 +50,14 @@ let nu: null = null
 let noReturn = () => {} // 一个没有任何返回值的函数，他的类型就是void
 
 // 9、any类型（如果不是特殊情况，不建议使用，不然没必要用ts了）比如：
-let a;
-a = 1
-a = '12'
+// let a;
+// a = 1
+// a = '12'
 
 // 10、never类型（指永远不会有返回值的类型）比如：
-let error = () => {
-  throw new Error('error')
-}
-let endless = () => {
-  while(true){}
-}
+// let error = () => {
+//   throw new Error('error')
+// }
+// let endless = () => {
+//   while(true){}
+// }
